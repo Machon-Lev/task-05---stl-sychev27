@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.15)
 
-project (Task06)
+project (Task06_Sychev_Alexander)
 
 set (CMAKE_C_STANDARD 11)
 set (CMAKE_C_STANDARD_REQUIRED ON)
@@ -14,7 +14,7 @@ if (MSVC)
     add_compile_options (/W4 /permissive- /Zc:externConstexpr /Zc:inline)
 endif ()
 
-add_executable (Task06)
+add_executable (Task06_Sychev_Alexander)
 
 add_subdirectory (include)
 add_subdirectory (src)
